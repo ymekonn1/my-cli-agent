@@ -78,7 +78,8 @@ In addition to natural language, the REPL supports slash commands:
 
 **Setup (one-time):**
 ```bash
-cd /Users/yonasmek/Desktop/code/projects/my-cli-agent
+git clone https://github.com/ymekonn1/my-cli-agent.git
+cd my-cli-agent
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
